@@ -46,18 +46,18 @@
     reflect-metadata "^0.1.12"
     yamljs "^0.3.0"
 
-"@nestcloud/boot@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/boot/-/boot-0.2.5-2.tgz#4395c998c38153a91f50ad86c3cec48ca94cd1be"
+"@nestcloud/boot@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/boot/-/boot-0.2.5-3.tgz#7a13ffa2188ab6a31ea97e879267dfc00de17fa9"
   dependencies:
     handlebars "^4.1.1"
     lodash "^4.17.11"
     reflect-metadata "^0.1.12"
     yamljs "^0.3.0"
 
-"@nestcloud/common@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/common/-/common-0.2.5-2.tgz#54b52a22d4cc1730441290e9df54f52c25a8729b"
+"@nestcloud/common@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/common/-/common-0.2.5-3.tgz#e79ba8206150d0d42c5ce6c5e1979da2beafbb20"
   dependencies:
     lodash "^4.17.11"
 
@@ -71,9 +71,9 @@
   optionalDependencies:
     "@nestcloud/boot" "^0.2.1"
 
-"@nestcloud/consul-loadbalance@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/consul-loadbalance/-/consul-loadbalance-0.2.5-2.tgz#4a15205ccd8ac6b17e8ce16ccc35487e69e1cc49"
+"@nestcloud/consul-loadbalance@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/consul-loadbalance/-/consul-loadbalance-0.2.5-3.tgz#780dae34e6bc4cbcbd01e66a65f4c8cb15b2467a"
   dependencies:
     axios "^0.18.0"
     lodash "^4.17.11"
@@ -82,9 +82,9 @@
     "@nestcloud/boot" "^0.2.1"
     "@nestcloud/consul-config" "^0.2.1"
 
-"@nestcloud/consul-service@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/consul-service/-/consul-service-0.2.5-2.tgz#e3365e6d659ef16bc79e52327e9e71fe8fd745d4"
+"@nestcloud/consul-service@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/consul-service/-/consul-service-0.2.5-3.tgz#892fa0862516ca9798b4f52309dc25e60e8a7dc7"
   dependencies:
     blueimp-md5 "^2.10.0"
     lodash "^4.17.11"
@@ -92,22 +92,22 @@
   optionalDependencies:
     "@nestcloud/boot" "^0.2.1"
 
-"@nestcloud/consul@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/consul/-/consul-0.2.5-2.tgz#ed89c99dbe86a202e8efd1341f2923a12fd0314f"
+"@nestcloud/consul@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/consul/-/consul-0.2.5-3.tgz#688d56e05f616bef3098caeed6c8d0ef357085de"
   dependencies:
     reflect-metadata "^0.1.13"
     yamljs "^0.3.0"
   optionalDependencies:
     "@nestcloud/boot" "^0.2.1"
 
-"@nestcloud/core@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/core/-/core-0.2.5-2.tgz#1e7ffa644338c4b40f1e4f71b1ca875208125b75"
+"@nestcloud/core@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/core/-/core-0.2.5-3.tgz#39ff9d874fe141d0b857c9d87f834112e1d969e5"
 
-"@nestcloud/rbac@^0.2.5-2":
-  version "0.2.5-2"
-  resolved "https://registry.yarnpkg.com/@nestcloud/rbac/-/rbac-0.2.5-2.tgz#188b4220cf8f6a41acc2d2abd6be62057bb57152"
+"@nestcloud/rbac@^0.2.5-3":
+  version "0.2.5-3"
+  resolved "https://registry.yarnpkg.com/@nestcloud/rbac/-/rbac-0.2.5-3.tgz#7b3c6a1d150178ea76b9368654da4966454316f9"
   dependencies:
     reflect-metadata "^0.1.12"
     yamljs "^0.3.0"

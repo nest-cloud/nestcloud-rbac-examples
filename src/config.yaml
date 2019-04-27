@@ -11,4 +11,5 @@ consul:
     name: example-service
     port: 3004
 rbac:
-  key: ${{ consul.service.name }}-rbac
+  parameters:
+    key: ${{ consul.service.name }}-rbac
