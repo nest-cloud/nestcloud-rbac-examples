@@ -1,0 +1,36 @@
+{
+  "name": "nest-typescript-starter",
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "@godaddy/terminus": "^4.1.0",
+    "@grpc/proto-loader": "0.4.0",
+    "@nestcloud/boot": "^0.2.5-2",
+    "@nestcloud/common": "^0.2.5-2",
+    "@nestcloud/consul": "^0.2.5-2",
+    "@nestcloud/consul-loadbalance": "^0.2.5-2",
+    "@nestcloud/consul-service": "^0.2.5-2",
+    "@nestcloud/core": "^0.2.5-2",
+    "@nestcloud/rbac": "^0.2.5-2",
+    "@nestjs/common": "6.1.1",
+    "@nestjs/core": "6.1.1",
+    "@nestjs/platform-express": "^6.1.1",
+    "@nestjs/terminus": "^6.1.2",
+    "@nestjs/testing": "6.1.1",
+    "class-transformer": "0.2.0",
+    "class-validator": "0.9.1",
+    "consul": "^0.34.1",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.4.0",
+    "typescript": "3.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "10.14.5",
+    "ts-node": "8.1.0",
+    "tslint": "5.16.0"
+  }
+}
