@@ -53,4 +53,4 @@ yarn
 yarn start
 ```
 
-Then visit http://localhost:3004/heros?user=test
+Then visit http://localhost:3000/heros?user=test
