@@ -2,14 +2,11 @@ consul:
   host: localhost
   port: 8500
   discoveryHost: localhost
+service:
+  name: nestcloud-rbac-examples
+  port: 3000
   healthCheck:
-    timeout: 1s
-    interval: 10s
-  maxRetry: 5
-  retryInterval: 5000
-  service:
-    name: example-service
-    port: 3004
+    ttl: 20
 rbac:
   parameters:
-    key: ${{ consul.service.name }}-rbac
+    name: ${{ service.name }}-rbac

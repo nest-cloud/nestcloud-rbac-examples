@@ -23,7 +23,7 @@ A NodeJS micro-service solution based on Consul, writing by Typescript language 
 
 ## Rbac Configurations
 
-Please set this configurations into consul kv named example-service-rbac.
+Please set this configurations into consul kv named nestcloud-rbac-examples-rbac.
 
 ```yaml
 kind: Account
@@ -45,18 +45,6 @@ accounts:
   - test
 
 ```
-
-## Requirement Components
-
-* @nestcloud/common
-* @nestcloud/consul
-
-## Optional Components
-
-* @nestcloud/consul-service
-* @nestcloud/consul-loadbalance
-* @nestcloud/boot
-* @nestcloud/config
 
 ## How to run
 
