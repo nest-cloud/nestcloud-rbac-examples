@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { ConsulValidator, UseValidators } from '@nestcloud/rbac';
+import { EtcdValidator, UseValidators } from '@nestcloud/rbac';
 
 @Injectable()
-@UseValidators(ConsulValidator)
+@UseValidators(EtcdValidator)
 export class RbacValidatorRegister {
 }

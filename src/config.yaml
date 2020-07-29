@@ -2,6 +2,8 @@ consul:
   host: localhost
   port: 8500
   discoveryHost: localhost
+etcd:
+  hosts: localhost:2379
 service:
   name: nestcloud-rbac-examples
   port: 3000

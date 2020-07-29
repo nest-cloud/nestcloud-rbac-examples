@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { BOOT, CONSUL } from '@nestcloud/common';
+import { BOOT, CONSUL, ETCD } from '@nestcloud/common';
 import { BootModule } from '@nestcloud/boot';
 import { ConsulModule } from '@nestcloud/consul';
 import { ServiceModule } from '@nestcloud/service';
@@ -9,14 +9,15 @@ import { TerminusModule } from '@nestjs/terminus';
 import { HeroController } from './hero.controller';
 import { resolve } from 'path';
 import { RbacValidatorRegister } from './rbac-validator.register';
+import { EtcdModule } from '@nestcloud/etcd';
 
 @Module({
     imports: [
         BootModule.forRoot({ filePath: resolve(__dirname, 'config.yaml') }),
-        ConsulModule.forRootAsync({ inject: [BOOT] }),
-        ServiceModule.forRootAsync({ inject: [BOOT, CONSUL] }),
+        EtcdModule.forRootAsync({ inject: [BOOT] }),
+        ServiceModule.forRootAsync({ inject: [BOOT, ETCD] }),
         LoadbalanceModule.forRootAsync({ inject: [BOOT] }),
-        RbacModule.forRootAsync({ inject: [CONSUL, BOOT] }),
+        RbacModule.forRootAsync({ inject: [ETCD, BOOT] }),
         TerminusModule.forRootAsync({
             useFactory: () => ({ endpoints: [{ url: '/health', healthIndicators: [] }] }),
         }),
